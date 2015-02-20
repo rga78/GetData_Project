@@ -35,37 +35,39 @@ The mean (-mean) and standard deviation (-std) were then estimated for each of
 these signals.  The estimated values were then averaged across each activity 
 ("WALKING", "WALKING_UPSTAIRS") for each subject (id=1:30), to produce this dataset ([tidy-activity-avgs.txt](tidy-activity-avgs.txt)).
 
+Both the acceleration measurements (Acc) and the angular velocities measured by
+the gyroscope (Gyro) are normalized between [-1,1].  The original units for
+the acceleration measurements (Acc) are standard gravity units 'g'.  The original
+units for the angular velocity measurements are radians/second.
+
 The following is a list of each signal pattern.  '-XYZ' is used to denote 3-axial signals 
 in the X, Y and Z directions (there is 1 column in the dataset for each axial).  For
 each signal pattern there exists a column for its estimated mean (-mean) and standard
 deviation (-std).
 
-The acceleration measurements (Acc) are in standard gravity units 'g'.  The angular 
-velocity measured by the gyroscope (Gyro) is in units radians/second.
-
-* tBodyAcc-XYZ
-* tGravityAcc-XYZ
-* tBodyAccJerk-XYZ
-* tBodyGyro-XYZ
-* tBodyGyroJerk-XYZ
-* tBodyAccMag
-* tGravityAccMag
-* tBodyAccJerkMag
-* tBodyGyroMag
-* tBodyGyroJerkMag
-* fBodyAcc-XYZ
-* fBodyAccJerk-XYZ
-* fBodyGyro-XYZ
-* fBodyAccMag
-* fBodyAccJerkMag
-* fBodyGyroMag
-* fBodyGyroJerkMag
+* tBodyAcc-XYZ              body acceleration measurements along XYZ axials 
+* tGravityAcc-XYZ           gravity acceleration measurements along XYZ axials
+* tBodyAccJerk-XYZ          acceleration "jerk" signal along XYZ axials
+* tBodyGyro-XYZ             gyroscope measurements along XYZ axials
+* tBodyGyroJerk-XYZ         gyroscope "jerk" signal along XYZ axials
+* tBodyAccMag               magnitude of body acceleration measurements (Euclidean norm of XYZ vectors)
+* tGravityAccMag            magnitude of gravity acceleration measurements (Euclidean norm of XYZ vectors)
+* tBodyAccJerkMag           magnitude of acceleration "jerk" measurements (Euclidean norm of XYZ vectors)
+* tBodyGyroMag              magnitude of gyroscope measurements (Euclidean norm of XYZ vectors)
+* tBodyGyroJerkMag          magnitude of gyroscope "jerk" measurements (Euclidean norm of XYZ vectors)
+* fBodyAcc-XYZ              FFT of tBodyAcc-XYZ
+* fBodyAccJerk-XYZ          FFT of tBodyAccJerk-XYZ
+* fBodyGyro-XYZ             FFT of tBodyGyro-XYZ
+* fBodyAccMag               FFT of tBodyAccMag
+* fBodyAccJerkMag           FFT of tBodyAccJerkMag
+* fBodyGyroMag              FFT of tBodyGyroMag
+* fBodyGyroJerkMag          FFT of tBodyGyroJerkMag
 
 
 ###Full Column List
 
-1. subject
-1. activity 
+1. subject                  ID - 1:30
+1. activity                 WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 1. tBodyAcc-mean()-X 
 1. tBodyAcc-mean()-Y
 1. tBodyAcc-mean()-Z
