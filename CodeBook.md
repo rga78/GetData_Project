@@ -45,23 +45,23 @@ in the X, Y and Z directions (there is 1 column in the dataset for each axial). 
 each signal pattern there exists a column for its estimated mean (-mean) and standard
 deviation (-std).
 
-* tBodyAcc-XYZ              body acceleration measurements along XYZ axials 
-* tGravityAcc-XYZ           gravity acceleration measurements along XYZ axials
-* tBodyAccJerk-XYZ          acceleration "jerk" signal along XYZ axials
-* tBodyGyro-XYZ             gyroscope measurements along XYZ axials
-* tBodyGyroJerk-XYZ         gyroscope "jerk" signal along XYZ axials
-* tBodyAccMag               magnitude of body acceleration measurements (Euclidean norm of XYZ vectors)
-* tGravityAccMag            magnitude of gravity acceleration measurements (Euclidean norm of XYZ vectors)
-* tBodyAccJerkMag           magnitude of acceleration "jerk" measurements (Euclidean norm of XYZ vectors)
-* tBodyGyroMag              magnitude of gyroscope measurements (Euclidean norm of XYZ vectors)
-* tBodyGyroJerkMag          magnitude of gyroscope "jerk" measurements (Euclidean norm of XYZ vectors)
-* fBodyAcc-XYZ              FFT of tBodyAcc-XYZ
-* fBodyAccJerk-XYZ          FFT of tBodyAccJerk-XYZ
-* fBodyGyro-XYZ             FFT of tBodyGyro-XYZ
-* fBodyAccMag               FFT of tBodyAccMag
-* fBodyAccJerkMag           FFT of tBodyAccJerkMag
-* fBodyGyroMag              FFT of tBodyGyroMag
-* fBodyGyroJerkMag          FFT of tBodyGyroJerkMag
+| tBodyAcc-XYZ              | body acceleration measurements along XYZ axials                                   |
+| tGravityAcc-XYZ           | gravity acceleration measurements along XYZ axials                                |
+| tBodyAccJerk-XYZ          | acceleration "jerk" signal along XYZ axials                                       |
+| tBodyGyro-XYZ             | gyroscope measurements along XYZ axials                                           |
+| tBodyGyroJerk-XYZ         | gyroscope "jerk" signal along XYZ axials                                          |
+| tBodyAccMag               | magnitude of body acceleration measurements (Euclidean norm of XYZ vectors)       |
+| tGravityAccMag            | magnitude of gravity acceleration measurements (Euclidean norm of XYZ vectors)    |
+| tBodyAccJerkMag           | magnitude of acceleration "jerk" measurements (Euclidean norm of XYZ vectors)     |
+| tBodyGyroMag              | magnitude of gyroscope measurements (Euclidean norm of XYZ vectors)               |
+| tBodyGyroJerkMag          | magnitude of gyroscope "jerk" measurements (Euclidean norm of XYZ vectors)        |
+| fBodyAcc-XYZ              | FFT of tBodyAcc-XYZ                                                               |
+| fBodyAccJerk-XYZ          | FFT of tBodyAccJerk-XYZ                                                           |
+| fBodyGyro-XYZ             | FFT of tBodyGyro-XYZ                                                              |
+| fBodyAccMag               | FFT of tBodyAccMag                                                                |
+| fBodyAccJerkMag           | FFT of tBodyAccJerkMag                                                            |
+| fBodyGyroMag              | FFT of tBodyGyroMag                                                               |
+| fBodyGyroJerkMag          | FFT of tBodyGyroJerkMag                                                           |
 
 
 ###Full Column List
