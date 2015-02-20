@@ -33,7 +33,7 @@ domain signals).
 
 The mean (-mean) and standard deviation (-std) were then estimated for each of 
 these signals.  The estimated values were then averaged across each activity 
-("WALKING", "WALKING_UPSTAIRS") for each subject (id=1:30), to produce this dataset.
+("WALKING", "WALKING_UPSTAIRS") for each subject (id=1:30), to produce this dataset ([tidy-activity-avgs.txt](tidy-activity-avgs.txt)).
 
 The following is a list of each signal pattern.  '-XYZ' is used to denote 3-axial signals 
 in the X, Y and Z directions (there is 1 column in the dataset for each axial).  For
