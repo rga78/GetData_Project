@@ -6,7 +6,8 @@ The measurements for this dataset are derived from the accelerometer and
 gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ collected from a
 Samsung Galaxy S smartphone.  
 
-The data was collected from 30 subjects doing 6 types of activities:
+The data was collected from 30 test subjects, ages 19-48, wearing a Samsung Galaxy S smartphone
+around their waist, doing 6 types of activities:
 WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 The raw data was obtained from the Machine Learning Repository at UCI:
@@ -38,6 +39,9 @@ The following is a list of each signal pattern.  '-XYZ' is used to denote 3-axia
 in the X, Y and Z directions (there is 1 column in the dataset for each axial).  For
 each signal pattern there exists a column for its estimated mean (-mean) and standard
 deviation (-std).
+
+The acceleration measurements (Acc) are in standard gravity units 'g'.  The angular 
+velocity measured by the gyroscope (Gyro) is in units radians/second.
 
 * tBodyAcc-XYZ
 * tGravityAcc-XYZ
