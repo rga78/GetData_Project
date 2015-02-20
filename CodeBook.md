@@ -45,6 +45,8 @@ in the X, Y and Z directions (there is 1 column in the dataset for each axial). 
 each signal pattern there exists a column for its estimated mean (-mean) and standard
 deviation (-std).
 
+| Signal                    |                                                                                   |
+| ------------------------- | --------------------------------------------------------------------------------- |
 | tBodyAcc-XYZ              | body acceleration measurements along XYZ axials                                   |
 | tGravityAcc-XYZ           | gravity acceleration measurements along XYZ axials                                |
 | tBodyAccJerk-XYZ          | acceleration "jerk" signal along XYZ axials                                       |
