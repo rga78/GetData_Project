@@ -53,7 +53,9 @@ names(X.ms) <- append(colNames, c("subject", "activity"))
 
 #--------------------------------------------------------------------------------------------------
 # 3. Uses descriptive activity names to name the activities in the data set
+
 activities <- read.table("data/activity_labels.txt", header=F, sep="")
+X.ms$activity <- as.factor(X.ms$activity)
 levels(X.ms$activity) <- activities$V2
 
 
